@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity"
+    android:background="#00CED1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the cipher text please:"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="#E0FFFF"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="25dp"
+        android:layout_marginTop="30dp"
+        android:background="#87CEEB"
+        android:textColor="#E0FFFF"
+        />
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="DECRYPT"
+        android:background="#87CEEB"
+        android:textSize="20sp"
+        android:textColor="#20B2AA"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:onClick="actionBtn5"
+        />
+
+    <TextView
+        android:id="@+id/txtv3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:paddingTop="25dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="#87CEEB"
+        android:textSize="20sp"
+        android:textColor="#20B2AA"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:onClick="actionBtn6"
+        />
+
+</LinearLayout>

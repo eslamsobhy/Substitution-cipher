@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity"
+    android:background="#9932CC">
+
+    <TextView
+        android:text="Enter the 26 letter string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B0E0E6"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:padding="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#B0E0E6"
+        android:textColor="#9932CC"
+        />
+
+    <TextView
+        android:id="@+id/txtv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:background="#B0E0E6"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:text="Enter the text you want to encrypt or decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#B0E0E6"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:padding="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edt4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#B0E0E6"
+        android:textColor="#9932CC"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="75dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ENCRYPT"
+            android:background="#FF1493"
+            android:textSize="20sp"
+            android:textColor="#00008B"
+            android:layout_gravity="left"
+            android:layout_marginLeft="75dp"
+            android:onClick="actionBtn7"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Decrypt"
+            android:background="#FF1493"
+            android:textSize="20sp"
+            android:textColor="#00008B"
+            android:layout_gravity="right"
+            android:layout_marginLeft="150dp"
+            android:onClick="actionBtn8"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00008B"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:padding="30dp"
+        />
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="#FF1493"
+        android:textSize="20sp"
+        android:textColor="#00008B"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="actionBtn9"
+        />
+
+</LinearLayout>
